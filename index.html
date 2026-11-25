@@ -1,117 +1,98 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="style.css"><html lang="en">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BRITONTECHKE | Digital Creative Studio</title>
-
-    <style>
-        body {
-            background-color: #101b19;
-            color: white;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            text-align: center;
-        }
-
-        header {
-            background-color: #172b25;
-            padding: 25px;
-        }
-
-        h1 {
-            color: #20c997;
-            font-size: 35px;
-        }
-
-        .hero {
-            padding: 80px 20px;
-        }
-
-        .hero h2 {
-            font-size: 35px;
-        }
-
-        .hero p {
-            color: #cccccc;
-            font-size: 18px;
-        }
-
-        .button {
-            background-color: #20c997;
-            color: black;
-            padding: 14px 25px;
-            text-decoration: none;
-            border-radius: 8px;
-            display: inline-block;
-        }
-
-        .services {
-            padding: 40px 20px;
-        }
-
-        .service {
-            background-color: #20352e;
-            margin: 15px auto;
-            padding: 20px;
-            max-width: 400px;
-            border-radius: 10px;
-        }
-
-        footer {
-            background-color: #172b25;
-            padding: 20px;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BRITONTECHKE - We Build. We Design. We Create.</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#0f172a;color:white}
+header{text-align:center;padding:60px 20px;background:linear-gradient(135deg,#2563eb,#7c3aed)}
+header h1{font-size:42px}
+header p{font-size:18px;margin:15px 0;opacity:.9}
+.btn{display:inline-block;background:#22c55e;color:white;padding:14px 28px;border-radius:30px;text-decoration:none;font-weight:bold;margin-top:10px}
+section{padding:50px 20px;max-width:900px;margin:auto}
+h2{text-align:center;font-size:30px;margin-bottom:30px;color:#60a5fa}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.card{background:#1e293b;padding:25px;border-radius:15px;text-align:center}
+.card h3{margin-bottom:10px}
+.price{font-size:28px;color:#22c55e;font-weight:bold;margin:15px 0}
+.card a{background:#2563eb;color:white;padding:10px 20px;border-radius:20px;text-decoration:none;display:inline-block}
+.about{display:flex;gap:20px;align-items:center;background:#1e293b;padding:25px;border-radius:15px;flex-wrap:wrap}
+.about img{width:150px;height:150px;border-radius:50%;object-fit:cover;background:#334155}
+.work{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.work div{background:#1e293b;padding:30px;border-radius:15px;text-align:center;font-size:50px}
+.contact{text-align:center;background:#1e293b;padding:30px;border-radius:15px}
+.contact a{color:#60a5fa;text-decoration:none}
+.whatsapp{position:fixed;bottom:20px;right:20px;background:#25D366;color:white;width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:30px;text-decoration:none;box-shadow:0 5px 15px rgba(0,0,0,.4);z-index:100}
+footer{text-align:center;padding:20px;opacity:.6}
+@media(max-width:600px){.cards,.work{grid-template-columns:1fr}header h1{font-size:32px}}
+</style>
 </head>
-
 <body>
 
-    <header>
-        <h1>BRITONTECHKE</h1>
-        <p>Digital Creative Studio</p>
-    </header>
+<header>
+<h1>BRITONTECHKE</h1>
+<p>We Build. We Design. We Create.</p>
+<p>Your trusted digital creative partner in Kisii, Kenya.</p>
+<a class="btn" href="https://wa.me/254745623767?text=Hi%20BRITONTECHKE!%20I%20want%20a%20website">Chat on WhatsApp</a>
+</header>
 
-    <section class="hero">
-        <h2>We Build. We Design. We Create.</h2>
+<section>
+<h2>Our Services</h2>
+<div class="cards">
+<div class="card"><h3>🌐 Website Development</h3><p>Modern, fast websites for your business.</p></div>
+<div class="card"><h3>🎨 Logo Design</h3><p>Unique logos that make your brand stand out.</p></div>
+<div class="card"><h3>📱 Social Media Design</h3><p>Posters, flyers & branding for your business.</p></div>
+<div class="card"><h3>🛒 Online Shops</h3><p>Sell your products online easily.</p></div>
+</div>
+</section>
 
-        <p>Your trusted digital creative partner.</p>
+<section>
+<h2>Our Prices</h2>
+<div class="cards">
+<div class="card"><h3>Basic Website</h3><div class="price">KSh 5,000</div><p>1-3 Pages<br>Mobile Friendly<br>WhatsApp Button<br>Delivery in 3 Days</p><br><a href="https://wa.me/254745623767?text=Hi!%20I%20want%20Basic%20Website%20KSh%205,000">Order Now</a></div>
+<div class="card"><h3>Business Website</h3><div class="price">KSh 15,000</div><p>Up to 7 Pages<br>Online Shop / Portfolio<br>Google Maps + Contact Form<br>Delivery in 7 Days</p><br><a href="https://wa.me/254745623767?text=Hi!%20I%20want%20Business%20Website%20KSh%2015,000">Order Now</a></div>
+<div class="card"><h3>Logo Design</h3><div class="price">KSh 2,000</div><p>3 Logo Concepts<br>High Quality Files<br>Fast Delivery</p><br><a href="https://wa.me/254745623767?text=Hi!%20I%20want%20Logo%20Design%20KSh%202,000">Order Now</a></div>
+<div class="card"><h3>Poster / Flyer</h3><div class="price">KSh 1,000</div><p>Business Poster<br>Social Media Ready<br>Same Day Delivery</p><br><a href="https://wa.me/254745623767?text=Hi!%20I%20want%20Poster%20KSh%201,000">Order Now</a></div>
+</div>
+</section>
 
-        <a href="#services" class="button">
-            Explore Our Services
-        </a>
-    </section>
+<section>
+<h2>Our Work</h2>
+<div class="work">
+<div>💻<br><p style="font-size:16px;margin-top:10px">Business Website<br>For Local Shops</p></div>
+<div>🎨<br><p style="font-size:16px;margin-top:10px">Logo Design<br>For Brands</p></div>
+<div>📱<br><p style="font-size:16px;margin-top:10px">Poster Design<br>For Events</p></div>
+<div>🛒<br><p style="font-size:16px;margin-top:10px">Online Shop<br>Sell Online</p></div>
+</div>
+</section>
 
-    <section class="services" id="services">
+<section>
+<h2>About Me</h2>
+<div class="about">
+<img src="https://via.placeholder.com/150" alt="Briton">
+<div>
+<h3>Briton Odhiambo</h3>
+<p style="margin:10px 0">Founder, BRITONTECHKE - Kisii, Kenya</p>
+<p>I help small businesses in Kenya go online with beautiful websites, logos and designs. Fast, affordable and professional.</p>
+</div>
+</div>
+</section>
 
-        <h2>Our Services</h2>
+<section>
+<div class="contact">
+<h2>Contact Us</h2>
+<p style="margin:15px 0">📍 Kisii, Kenya</p>
+<p>📞 <a href="tel:+254745623767">0745 623 767</a></p>
+<p>📧 <a href="mailto:odhiambobriton634@gmail.com">odhiambobriton634@gmail.com</a></p>
+<br>
+<a class="btn" href="https://wa.me/254745623767">Message on WhatsApp</a>
+</div>
+</section>
 
-        <div class="service">
-            <h3>Website Development</h3>
-            <p>Professional websites for your business.</p>
-        </div>
+<a class="whatsapp" href="https://wa.me/254745623767?text=Hi%20BRITONTECHKE!">💬</a>
 
-        <div class="service">
-            <h3>Logo Design</h3>
-            <p>Creative logos for your brand.</p>
-        </div>
-
-        <div class="service">
-            <h3>Photo Editing</h3>
-            <p>Professional photo editing services.</p>
-        </div>
-
-        <div class="service">
-            <h3>Online Branding</h3>
-            <p>Grow your business online.</p>
-        </div>
-
-    </section>
-
-    <footer>
-        <p>© 2026 BRITONTECHKE. All Rights Reserved.</p>
-    </footer>
-
-  <script src="script.js"></script>
+<footer>© 2026 BRITONTECHKE | Built by Briton Odhiambo</footer>
 </body>
 </html>
