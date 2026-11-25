@@ -1,0 +1,107 @@
+/* BRITONTECHKE WEBSITE DESIGN */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #080d0b;
+    color: white;
+    line-height: 1.6;
+}
+
+header {
+    background: #10251b;
+    padding: 25px 8%;
+    text-align: center;
+    border-bottom: 2px solid #00cc88;
+}
+
+header h1 {
+    color: #00e69a;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+header p {
+    color: #dddddd;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #10251b, #080d0b);
+}
+
+.hero h2 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    color: #cccccc;
+    margin-bottom: 25px;
+}
+
+button {
+    background: #00cc88;
+    color: #06120c;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #00ffad;
+}
+
+section {
+    padding: 60px 8%;
+    text-align: center;
+}
+
+section h2 {
+    color: #00e69a;
+    margin-bottom: 25px;
+}
+
+.service-card {
+    display: inline-block;
+    background: #14251c;
+    padding: 25px;
+    margin: 12px;
+    border-radius: 10px;
+    width: 250px;
+    vertical-align: top;
+    border: 1px solid #24563d;
+}
+
+.service-card h3 {
+    color: #00e69a;
+    margin-bottom: 12px;
+}
+
+footer {
+    background: #10251b;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+    color: #cccccc;
+}
+
+@media (max-width: 600px) {
+    .hero h2 {
+        font-size: 30px;
+    }
+
+    .service-card {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
